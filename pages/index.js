@@ -80,7 +80,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="output-content">
-                <p>{apiOutput}</p>
+                <div dangerouslySetInnerHTML={{ __html: apiOutput }} />
               </div>
             </div>
           )}
